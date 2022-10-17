@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EFA52BF4-12ED-49BF-88E7-4D426C951A07"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45AC892A-A354-4797-8AC6-20386D2CFF82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SousChef/VIewModels/LiveActivityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "startLiveActivity()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "45AC892A-A354-4797-8AC6-20386D2CFF82 - dfea2d20800c54f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.startLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "45AC892A-A354-4797-8AC6-20386D2CFF82 - 7afe31e5d9a62341"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.startLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "45AC892A-A354-4797-8AC6-20386D2CFF82 - 30ebd2ccf08ecd50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.startLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "196A09AC-166F-4045-84C2-EFFA0150A5EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SousChef/VIewModels/LiveActivityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "startLiveActivity()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "196A09AC-166F-4045-84C2-EFFA0150A5EA - 97969ecb674be374"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.startLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "196A09AC-166F-4045-84C2-EFFA0150A5EA - 32e3033be3c10f6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) await resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.startLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "196A09AC-166F-4045-84C2-EFFA0150A5EA - fc40cb266c222f72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.startLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "196A09AC-166F-4045-84C2-EFFA0150A5EA - 4532e59575fd6b70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.startLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "627F13EB-7812-4203-B6BF-21153DFEB4CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SousChef/VIewModels/LiveActivityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "startLiveActivity()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0055C101-3358-4050-941F-EC74C0E33510"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SousChef/VIewModels/LiveActivityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "startLiveActivity()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D3C6E49-625A-4BEB-8124-6CB06CF3FE66"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SousChef/VIewModels/LiveActivityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "endLiveActivity()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D3C6E49-625A-4BEB-8124-6CB06CF3FE66 - 224564575dbabb27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.endLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "0D3C6E49-625A-4BEB-8124-6CB06CF3FE66 - c5489e0fdd5f1a04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.endLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "0D3C6E49-625A-4BEB-8124-6CB06CF3FE66 - 30dff1f7feaedb56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.endLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "0D3C6E49-625A-4BEB-8124-6CB06CF3FE66 - fcf3f46469efe55d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in SousChef.LiveActivityViewModel.endLiveActivity() -&gt; ()"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2911D3D-92A4-4006-973E-DD5E5988C6D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SousChef/VIewModels/LiveActivityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "downloadImage(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D2911D3D-92A4-4006-973E-DD5E5988C6D4 - 3f2f8c11e8032ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SousChef.LiveActivityViewModel.downloadImage(from: Foundation.URL) async throws -&gt; Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "D2911D3D-92A4-4006-973E-DD5E5988C6D4 - 8c2d367a8adaeada"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SousChef.LiveActivityViewModel.downloadImage(from: Foundation.URL) async throws -&gt; Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "SousChef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bkoch1/Desktop/SousChef/SousChef/VIewModels/LiveActivityViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACC83A81-F0A3-4E3D-8D06-92C1FC8E6A03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SousChef/VIewModels/LiveActivityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "downloadImage(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D485DEAF-DA71-4364-8732-06D8E92AD01C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SousChef/VIewModels/LiveActivityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "downloadImage(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

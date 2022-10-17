@@ -11,7 +11,40 @@
 		3FBAAFBC28EF86D00009B060 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAAFBB28EF86D00009B060 /* ContentView.swift */; };
 		3FBAAFBE28EF86D20009B060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAAFBD28EF86D20009B060 /* Assets.xcassets */; };
 		3FBAAFC128EF86D20009B060 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAAFC028EF86D20009B060 /* Preview Assets.xcassets */; };
+		3FBAAFCF28EF88BB0009B060 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBAAFCE28EF88BB0009B060 /* WidgetKit.framework */; };
+		3FBAAFD128EF88BB0009B060 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBAAFD028EF88BB0009B060 /* SwiftUI.framework */; };
+		3FBAAFD428EF88BB0009B060 /* SousChefWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAAFD328EF88BB0009B060 /* SousChefWidgetsBundle.swift */; };
+		3FBAAFD628EF88BB0009B060 /* SousChefWidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAAFD528EF88BB0009B060 /* SousChefWidgetsLiveActivity.swift */; };
+		3FBAAFDA28EF88BC0009B060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBAAFD928EF88BC0009B060 /* Assets.xcassets */; };
+		3FBAAFDE28EF88BC0009B060 /* SousChefWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3FBAAFCC28EF88BB0009B060 /* SousChefWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FBAAFE528EF89710009B060 /* SousChefTimerAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAAFE428EF89710009B060 /* SousChefTimerAttributes.swift */; };
+		3FBAAFE628EF8B090009B060 /* SousChefTimerAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAAFE428EF89710009B060 /* SousChefTimerAttributes.swift */; };
+		3FBAAFE928EF8B960009B060 /* LiveActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBAAFE828EF8B960009B060 /* LiveActivityViewModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBAAFDC28EF88BC0009B060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBAAFAE28EF86D00009B060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBAAFCB28EF88BB0009B060;
+			remoteInfo = SousChefWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FBAAFE228EF88BC0009B060 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3FBAAFDE28EF88BC0009B060 /* SousChefWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3FBAAFB628EF86D00009B060 /* SousChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SousChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +52,17 @@
 		3FBAAFBB28EF86D00009B060 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FBAAFBD28EF86D20009B060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FBAAFC028EF86D20009B060 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FBAAFCC28EF88BB0009B060 /* SousChefWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SousChefWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBAAFCE28EF88BB0009B060 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3FBAAFD028EF88BB0009B060 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3FBAAFD328EF88BB0009B060 /* SousChefWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousChefWidgetsBundle.swift; sourceTree = "<group>"; };
+		3FBAAFD528EF88BB0009B060 /* SousChefWidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousChefWidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		3FBAAFD928EF88BC0009B060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBAAFDB28EF88BC0009B060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBAAFE428EF89710009B060 /* SousChefTimerAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousChefTimerAttributes.swift; sourceTree = "<group>"; };
+		3FBAAFE828EF8B960009B060 /* LiveActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityViewModel.swift; sourceTree = "<group>"; };
+		3FBAAFEA28EF94AB0009B060 /* SousChef.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SousChef.entitlements; sourceTree = "<group>"; };
+		3FBAAFEB28EF94BC0009B060 /* SousChefWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SousChefWidgetsExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +73,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FBAAFC928EF88BB0009B060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBAAFD128EF88BB0009B060 /* SwiftUI.framework in Frameworks */,
+				3FBAAFCF28EF88BB0009B060 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3FBAAFAD28EF86D00009B060 = {
 			isa = PBXGroup;
 			children = (
+				3FBAAFEB28EF94BC0009B060 /* SousChefWidgetsExtension.entitlements */,
 				3FBAAFB828EF86D00009B060 /* SousChef */,
+				3FBAAFD228EF88BB0009B060 /* SousChefWidgets */,
+				3FBAAFCD28EF88BB0009B060 /* Frameworks */,
 				3FBAAFB728EF86D00009B060 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBAAFB628EF86D00009B060 /* SousChef.app */,
+				3FBAAFCC28EF88BB0009B060 /* SousChefWidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +108,11 @@
 		3FBAAFB828EF86D00009B060 /* SousChef */ = {
 			isa = PBXGroup;
 			children = (
+				3FBAAFEA28EF94AB0009B060 /* SousChef.entitlements */,
+				3FBAAFE728EF8B8C0009B060 /* VIewModels */,
+				3FBAAFE328EF89570009B060 /* Models */,
+				3FBAAFC728EF87790009B060 /* UI */,
 				3FBAAFB928EF86D00009B060 /* SousChefApp.swift */,
-				3FBAAFBB28EF86D00009B060 /* ContentView.swift */,
 				3FBAAFBD28EF86D20009B060 /* Assets.xcassets */,
 				3FBAAFBF28EF86D20009B060 /* Preview Content */,
 			);
@@ -67,6 +127,50 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3FBAAFC728EF87790009B060 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAAFBB28EF86D00009B060 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3FBAAFCD28EF88BB0009B060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAAFCE28EF88BB0009B060 /* WidgetKit.framework */,
+				3FBAAFD028EF88BB0009B060 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FBAAFD228EF88BB0009B060 /* SousChefWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAAFD328EF88BB0009B060 /* SousChefWidgetsBundle.swift */,
+				3FBAAFD528EF88BB0009B060 /* SousChefWidgetsLiveActivity.swift */,
+				3FBAAFD928EF88BC0009B060 /* Assets.xcassets */,
+				3FBAAFDB28EF88BC0009B060 /* Info.plist */,
+			);
+			path = SousChefWidgets;
+			sourceTree = "<group>";
+		};
+		3FBAAFE328EF89570009B060 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAAFE428EF89710009B060 /* SousChefTimerAttributes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FBAAFE728EF8B8C0009B060 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3FBAAFE828EF8B960009B060 /* LiveActivityViewModel.swift */,
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +181,34 @@
 				3FBAAFB228EF86D00009B060 /* Sources */,
 				3FBAAFB328EF86D00009B060 /* Frameworks */,
 				3FBAAFB428EF86D00009B060 /* Resources */,
+				3FBAAFE228EF88BC0009B060 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3FBAAFDD28EF88BC0009B060 /* PBXTargetDependency */,
 			);
 			name = SousChef;
 			productName = SousChef;
 			productReference = 3FBAAFB628EF86D00009B060 /* SousChef.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3FBAAFCB28EF88BB0009B060 /* SousChefWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBAAFDF28EF88BC0009B060 /* Build configuration list for PBXNativeTarget "SousChefWidgetsExtension" */;
+			buildPhases = (
+				3FBAAFC828EF88BB0009B060 /* Sources */,
+				3FBAAFC928EF88BB0009B060 /* Frameworks */,
+				3FBAAFCA28EF88BB0009B060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SousChefWidgetsExtension;
+			productName = SousChefWidgetsExtension;
+			productReference = 3FBAAFCC28EF88BB0009B060 /* SousChefWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +221,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					3FBAAFB528EF86D00009B060 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3FBAAFCB28EF88BB0009B060 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -116,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				3FBAAFB528EF86D00009B060 /* SousChef */,
+				3FBAAFCB28EF88BB0009B060 /* SousChefWidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +257,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FBAAFCA28EF88BB0009B060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBAAFDA28EF88BC0009B060 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +272,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBAAFE528EF89710009B060 /* SousChefTimerAttributes.swift in Sources */,
 				3FBAAFBC28EF86D00009B060 /* ContentView.swift in Sources */,
 				3FBAAFBA28EF86D00009B060 /* SousChefApp.swift in Sources */,
+				3FBAAFE928EF8B960009B060 /* LiveActivityViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBAAFC828EF88BB0009B060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBAAFE628EF8B090009B060 /* SousChefTimerAttributes.swift in Sources */,
+				3FBAAFD628EF88BB0009B060 /* SousChefWidgetsLiveActivity.swift in Sources */,
+				3FBAAFD428EF88BB0009B060 /* SousChefWidgetsBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBAAFDD28EF88BC0009B060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBAAFCB28EF88BB0009B060 /* SousChefWidgetsExtension */;
+			targetProxy = 3FBAAFDC28EF88BC0009B060 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3FBAAFC228EF86D20009B060 /* Debug */ = {
@@ -262,14 +417,17 @@
 		3FBAAFC528EF86D20009B060 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SousChef/SousChef.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SousChef/Preview Content\"";
 				DEVELOPMENT_TEAM = H7CZL4QN4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,14 +449,17 @@
 		3FBAAFC628EF86D20009B060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SousChef/SousChef.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SousChef/Preview Content\"";
 				DEVELOPMENT_TEAM = H7CZL4QN4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +472,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brandonk.SousChef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FBAAFE028EF88BC0009B060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SousChefWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7CZL4QN4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SousChefWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SousChefWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandonk.SousChef.SousChefWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FBAAFE128EF88BC0009B060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SousChefWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7CZL4QN4L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SousChefWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SousChefWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandonk.SousChef.SousChefWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +551,15 @@
 			buildConfigurations = (
 				3FBAAFC528EF86D20009B060 /* Debug */,
 				3FBAAFC628EF86D20009B060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBAAFDF28EF88BC0009B060 /* Build configuration list for PBXNativeTarget "SousChefWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBAAFE028EF88BC0009B060 /* Debug */,
+				3FBAAFE128EF88BC0009B060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
